@@ -888,9 +888,8 @@ body {
   appearance: none;
 }
 .calculate__input {
-  max-width: max-content;
-  max-height: max-content;
   position: relative;
+  width: 453px;
 }
 .calculate__input::after {
   content: url("../assets/input-arrow.svg");
@@ -940,6 +939,9 @@ body {
 @media (max-width: 1024px) {
   .calculate__form {
     display: block;
+  }
+  .calculate__input select {
+    width: 100%;
   }
   .calculate__input {
     width: 100%;
