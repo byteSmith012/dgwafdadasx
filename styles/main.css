@@ -676,6 +676,7 @@ body {
   }
   .catalog__featured-mobile-imgs {
     display: flex;
+    width: 100%;
   }
   .catalog__featured-button {
     font-size: 18px;
