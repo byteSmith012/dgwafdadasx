@@ -875,7 +875,7 @@ body {
   font-size: 36px;
   display: block;
 }
-.calculate__input {
+.calculate__input select {
   margin-bottom: 40px;
   padding: 12px 35px;
   padding-right: 20px;
@@ -885,6 +885,19 @@ body {
   width: 453px;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  appearance: none;
+}
+.calculate__input {
+  max-width: max-content;
+  max-height: max-content;
+  position: relative;
+}
+.calculate__input::after {
+  content: url("../assets/input-arrow.svg");
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  z-index: 1000;
 }
 .calculate__input-text {
   margin-bottom: 40px;
