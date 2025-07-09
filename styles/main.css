@@ -1083,7 +1083,7 @@ body {
   height: 323px;
   overflow: hidden;
   background: url("../assets/footer-grass.png") center bottom/cover no-repeat;
-  z-index: 1000;
+  z-index: -1000;
 }
 .footer__grass::before {
   transform: scale(0.4);
@@ -1091,7 +1091,7 @@ body {
   left: -170px;
   max-height: 352px;
   bottom: 50px;
-  opacity: 0.9;
+  opacity: 1;
   z-index: -300;
   position: absolute;
 }
@@ -1100,7 +1100,7 @@ body {
   right: 0;
   max-height: 352px;
   bottom: 0px;
-  opacity: 0.9;
+  opacity: 1;
   z-index: -3;  
   position: absolute;
 }
