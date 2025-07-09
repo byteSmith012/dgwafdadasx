@@ -632,6 +632,7 @@ body {
   gap: 20px;
   margin-top: 40px;
   width: 100%;
+  overflow: hidden;
 }
 .catalog__featured-mobile-imgs img {
   width: 98%;
