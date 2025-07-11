@@ -1,7 +1,6 @@
 body {
   font-family: "Manrope";
   color: #464646;
-  overflow: hidden;
 }
 .success {
   width: 1400px;
@@ -45,6 +44,7 @@ body {
     right: -205px;
     top: 50%;
     transform: translateY(-50%) scale(0.5);
+    z-index: 0;
 }
 .success__title {
   font-weight: 500;
